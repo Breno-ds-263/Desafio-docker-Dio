@@ -1,7 +1,3 @@
-Com certeza! Aqui está o conteúdo estruturado em Markdown, pronto para você copiar e colar no seu arquivo README.md.
-
-Aproveitei para organizar as seções de forma que valorize o seu perfil técnico, destacando o uso de Docker e a arquitetura de Load Balancing.
-
 ## 🚀 Desafio DIO: Infraestrutura como Código & Load Balancing
 Este repositório contém a solução desenvolvida para o desafio de infraestrutura da DIO (Digital Innovation One). O objetivo principal é criar um ambiente escalável utilizando Nginx como balanceador de carga, distribuindo o tráfego para múltiplos servidores backend PHP conectados a um banco de dados.
 
@@ -34,14 +30,6 @@ index.php: Página principal que realiza o teste de conexão e exibe a versão d
 
 
 banco.sql: Script de criação da estrutura da tabela no banco de dados.
-
-🚀 Como Reproduzir
-
-Configurar o Banco de Dados: Execute o script banco.sql no seu servidor de banco de dados.
-
-Ajustar o Backend: No arquivo index.php, valide se o IP do $servername aponta para o seu servidor de banco.
-
-Build da Imagem Nginx:
 
 Bash
 docker build -t meu-nginx-loadbalancer .
